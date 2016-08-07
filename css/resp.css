@@ -1,0 +1,79 @@
+/* Large Devices, Wide Screens */
+@media  screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media  screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media  screen and (max-width : 768px) {
+	#headwrap{
+		text-align: center;
+	}
+	#service3 .col-sm-9 span p,#service3 .col-sm-9 p,#service3 .col-sm-9 h1{
+	/*	color: #282828;*/
+		    /*padding-left: 120px;*/
+		    padding-left: 220px;
+
+	}
+	#service6 .col-sm-8 .media-body,#service6 .col-sm-8 .media-body h5 {
+        padding-left:0px;
+}
+   #service6 .col-sm-8 .media2,#service6 .col-sm-8 .media1 h5 {
+    padding-right: 0px;
+    }
+    #service h1,#service2 h1,#service3 .col-sm-9 h1,#service4 h1 {
+    font-size: 36px;
+}
+#service5 h1, #service6 h1,#service7 h1{
+	font-size: 25px;
+}
+#service8 .col-sm-6{
+	margin-bottom: 20px;
+	text-align: center;
+}
+#foot .con13{
+	margin-top: 2px;
+}
+#service3 .btn-lg{
+	margin-left: 196px;
+}
+#service4 .col-sm-6 span a{
+	margin-left: 85px;
+}
+
+#foot .paragraph {
+    margin-right: 90px;
+}
+}
+
+/* Extra Small Devices, Phones */ 
+@media  screen and (max-width : 480px) {
+
+	#foot .con13{
+	margin-top: -8px;
+}
+
+#service3 .col-sm-9 span p,#service3 .col-sm-9 p,#service3 .col-sm-9 h1{
+	/*	color: #282828;*/
+		    padding-left: 120px;
+
+	}
+
+	#service3 .btn-lg{
+	margin-left: 125px;
+}
+
+}
+
+/* Custom, iPhone Retina */ 
+@media  screen and (max-width : 320px) {
+
+	#service3 .btn-lg {
+    margin-left: 67px;
+}
+
+}
